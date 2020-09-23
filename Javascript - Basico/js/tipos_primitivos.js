@@ -6,7 +6,7 @@ console.log(typeof varString) // string
 const varNumber = 10 // ou 10.52
 console.log(typeof varNumber) // number
 
-let nome 
+let nome //const não pode iniciar sem uma declaração de valor 
 console.log(nome) // undefined -> Não aponta para nada na memoria
 console.log(typeof nome) //undefined
 
@@ -43,3 +43,10 @@ console.log(a3,b3) // { nome: 'bear' } { nome: 'bear' }
 
 b3 = {nome: 'Code'}
 console.log(a3,b3) // { nome: 'bear' } { nome: 'Code' }
+
+/**
+ * Tipos de Dados primitivos em JS
+ * 
+ * String, number, undefined, null, boolean, symbol
+ * 
+ */
